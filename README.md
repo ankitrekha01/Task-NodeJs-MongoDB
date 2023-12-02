@@ -52,6 +52,7 @@ To get a local copy up and running, follow these simple steps.
     npm install
     ```
 ## Environment
+
 - Create a new file named .env and add the following details
   ```sh
   PORT=3000
@@ -63,10 +64,13 @@ To get a local copy up and running, follow these simple steps.
 ## Usage
 
 - To run the server in dev mode
+  
   ```sh
   npm run dev
   ```
+  
 - To run the server in production mode
+
   ```sh
   npm start
   ```
