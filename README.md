@@ -38,6 +38,17 @@ To get a local copy up and running, follow these simple steps.
      use mydatabase
      ```
      Use the database name of your choice.
+     
+### Environment
+- Create a new file named .env and add the following details
+  
+  ```sh
+  PORT=3000
+  CONNECTION_STRING=mongodb://127.0.0.1:27017/mydatabase
+  ACCESS_TOKEN_SECRET=mysecretkey
+  JWT_EXPIRATION_TIME=3600
+  ```
+
 
 ### Installation
 
@@ -51,15 +62,6 @@ To get a local copy up and running, follow these simple steps.
      ```sh
     npm install
     ```
-## Environment
-- Create a new file named .env and add the following details
-  
-  ```sh
-  PORT=3000
-  CONNECTION_STRING=mongodb://127.0.0.1:27017/mydatabase
-  ACCESS_TOKEN_SECRET=mysecretkey
-  JWT_EXPIRATION_TIME=3600
-  ```
 
 ## Usage
 
