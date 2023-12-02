@@ -52,8 +52,8 @@ To get a local copy up and running, follow these simple steps.
     npm install
     ```
 ## Environment
-
 - Create a new file named .env and add the following details
+  
   ```sh
   PORT=3000
   CONNECTION_STRING=mongodb://127.0.0.1:27017/mydatabase
