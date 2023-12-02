@@ -25,7 +25,7 @@ To get a local copy up and running, follow these simple steps.
 ### Prerequisites
 
 - Node.js and npm installed
-- #### MongoDB Installation Guide
+- MongoDB Installation Guide
   1. Download MongoDB - Visit the MongoDB download page at https://www.mongodb.com/try/download/shell to download the MongoDB shell.
   2. Open Command Prompt - Open your command prompt and type the following command to access the MongoDB shell
      
