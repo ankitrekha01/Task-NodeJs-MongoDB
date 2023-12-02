@@ -25,13 +25,15 @@ To get a local copy up and running, follow these simple steps.
 ### Prerequisites
 
 - Node.js and npm installed
-- ## MongoDB Installation Guide
+- #### MongoDB Installation Guide
   1. Download MongoDB - Visit the MongoDB download page at https://www.mongodb.com/try/download/shell to download the MongoDB shell.
   2. Open Command Prompt - Open your command prompt and type the following command to access the MongoDB shell
+     
      ```sh
      mongosh
      ```
   3. Create a New Database
+     
      ```sh
      use mydatabase
      ```
@@ -40,33 +42,34 @@ To get a local copy up and running, follow these simple steps.
 ### Installation
 
 1. Clone the repository:
+   
    ```sh
    git clone https://github.com/ankitrekha01/Task-NodeJs-MongoDB
    ```
 2. Install dependencies:
+   
      ```sh
     npm install
     ```
 ## Environment
-Create a new file named .env and add the following details
-```sh
-PORT=3000
-CONNECTION_STRING=mongodb://127.0.0.1:27017/mydatabase
-ACCESS_TOKEN_SECRET=mysecretkey
-JWT_EXPIRATION_TIME=3600
-```
+- Create a new file named .env and add the following details
+  ```sh
+  PORT=3000
+  CONNECTION_STRING=mongodb://127.0.0.1:27017/mydatabase
+  ACCESS_TOKEN_SECRET=mysecretkey
+  JWT_EXPIRATION_TIME=3600
+  ```
 
 ## Usage
 
-1. To run the server
-   - In dev mode
-      ```sh
-      npm run dev
-      ```
-    - In production mode
-      ```sh
-      npm start
-      ```
+- To run the server in dev mode
+  ```sh
+  npm run dev
+  ```
+- To run the server in production mode
+  ```sh
+  npm start
+  ```
 2.  Note that dev mode uses nodemon so that the server can be changed and restarted easily
 
 ## Structure
